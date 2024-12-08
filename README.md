@@ -5,3 +5,7 @@ Hello! I'm Melanie, a passionate creative engineer with a focus on web developme
 ## Projects
 - [Project 1](https://github.com/yourusername/project1)
 - [Project 2](https://github.com/yourusername/project2)
+- [Project 1](https://github.com/yourusername/project1)
+- [Project 2](https://github.com/yourusername/project2)
+- [Project 1](https://github.com/yourusername/project1)
+- [Project 2](https://github.com/yourusername/project2)
