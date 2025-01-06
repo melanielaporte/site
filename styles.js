@@ -1,7 +1,7 @@
 
 // Wait for the DOM to load
 document.addEventListener("DOMContentLoaded", () => {
-    // Selectors
+    // Navigation Links - Selectors
     const navLinks = document.querySelectorAll("nav a");
   
     // Event Listener Example
