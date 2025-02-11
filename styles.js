@@ -32,4 +32,14 @@ document.addEventListener("DOMContentLoaded", function() {
           project.style.transform = "scale(1)";
       });
   });
+
+  // Add a dynamic background color change to header on scroll
+  window.addEventListener("scroll", () => {
+      const header = document.querySelector("header");
+      if (window.scrollY > 100) {
+          header.style.background = "linear-gradient(135deg, #ff9a9e, #fad0c4, #FFB6C1)";
+      } else {
+          header.style.background = "linear-gradient(135deg, #ff9a9e, #fad0c4)";
+      }
+  });
 });
