@@ -64,23 +64,6 @@ section h2 {
   height: auto;
 }
 
-.iframe-container {
-  position: relative;
-  padding-top: 56.25%; /* Aspect Ratio 16:9 */
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;
-  margin: 1em 0;
-}
-
-.iframe-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
 footer {
   text-align: center;
   background-color: #333;
