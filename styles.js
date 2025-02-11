@@ -62,7 +62,6 @@ document.addEventListener("DOMContentLoaded", function() {
   const nameElement = document.getElementById("typed-name");
   const introElement = document.getElementById("typed-intro");
   
-  const nameText = "Melanie Laporte";
   const introText = "Creative Technologist | Designer | Developer";
 
   // Typing speed (milliseconds)
@@ -71,8 +70,6 @@ document.addEventListener("DOMContentLoaded", function() {
   // Call typeWriter for both name and intro
   typeWriter(nameElement, nameText, typingSpeed);
   setTimeout(() => typeWriter(introElement, introText, typingSpeed), nameText.length * typingSpeed + 500);
-  
-  // Rest of your code...
 
   // Smooth scrolling for navigation
   document.querySelectorAll('nav a').forEach(anchor => {
