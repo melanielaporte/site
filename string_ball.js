@@ -8,17 +8,19 @@ let particles = [];
 let innerSize = 20; // Adjusts core size
 
 function setup() {
-    createCanvas(windowWidth, windowHeight);
+    let canvas = createCanvas(windowWidth, windowHeight);
+    canvas.parent('string-ball-canvas'); // Attach canvas to the div with id "string-ball-canvas"
     for (let i = 0; i < TOTAL; i++) {
         particles.push({
             pos: createVector(width / 2, height / 2),
             dir: random(TWO_PI),
-            speed: random(1, 4), // adjusts bloom speed
+            speed: random(1, 4), // Adjust bloom speed
             color: color(random(255), random(255), random(255)),
             life: 255 
         });
     }
 }
+
 
 function draw() {
     background(0, 20); 
