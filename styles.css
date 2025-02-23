@@ -1,7 +1,7 @@
 /* Global styles */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
+  background-color: #FFEEE3;
   margin: 0;
   padding: 0;
   color: #333;
@@ -11,7 +11,7 @@ header {
   display: flex;
   justify-content: space-between;  /* Space out the left and right sections */
   align-items: center;  /* Vertically center the content */
-  background-color: #333;
+  background-color: #7f1313;
   color: white;
   padding: 1em 2em;
 }
@@ -43,7 +43,7 @@ header h1 {
 nav {
   display: flex;
   justify-content: center;
-  background-color: #444;
+  background-color: #003744;
 }
 
 nav a {
