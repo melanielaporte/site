@@ -1,3 +1,4 @@
+/* Global styles */
 body {
   font-family: Arial, sans-serif;
   background-color: #f9f9f9;
@@ -7,21 +8,38 @@ body {
 }
 
 header {
+  display: flex;
+  justify-content: space-between;  /* Space out the left and right sections */
+  align-items: center;  /* Vertically center the content */
   background-color: #333;
   color: white;
   padding: 1em 2em;
+}
+
+.header-left, .header-right {
+  flex: 1;  /* Both sections take equal width */
+}
+
+.header-left {
   text-align: left;
 }
 
-.header-photo {
-  align-content: right;
+.header-right {
+  text-align: right;
 }
 
+.header-photo {
+  max-width: 150px; /* Adjust the size of the photo */
+  border-radius: 50%; /* Optional: adds rounded corners to the photo */
+}
+
+/* Header text */
 header h1 {
   margin: 0;
   font-size: 2.5em;
 }
 
+/* Navigation */
 nav {
   display: flex;
   justify-content: center;
