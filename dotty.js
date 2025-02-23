@@ -1,18 +1,17 @@
 // Melanie Laporte 
 // github.com/melanielaporte
-// I have fallen in love with creating art with code!
-// Music: Dove by Cymande -> The song is copyrighted, I'll change it later.
+// Music: Dove by Cymande
 
 let particles = [];
-let message1 = "THANK YOU";  
-let message2 = "PROFESSOR ALLY!";  
+let message1 = "GOOGLE CREATIVE";  
+let message2 = "LAB FIVER!";  
 let points = [];
 let font;
 let formedLetters = [];
 let goSound;
 
 function preload() {
-  goSound = loadSound('music.wav'); 
+  goSound = loadSound('ally2.wav'); 
   font = loadFont('BagelFatOne-Regular.ttf'); 
 }
 
